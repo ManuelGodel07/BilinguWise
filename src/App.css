@@ -1,0 +1,237 @@
+.App {
+  background-color: #FFF;
+}
+
+.App-logo {
+  height: 15vh;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-header {
+    background-color: rgb(104, 52, 22);
+    min-height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    color: #000;
+  }
+}
+
+@media (min-width: 40em) {
+  .App-header {
+    background-color: rgb(68, 100, 98);
+    min-height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #fff;
+  }
+  .body-head {
+    height: 30vh; /* Set the height of the background to fill the viewport */
+  }
+}
+
+@media (min-width: 48em) {
+  .App-header {
+    background-color: #1cb;
+    min-height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+
+
+}
+
+/* Medium screens */
+@media (min-width: 64em) and (min-width: 768px) {
+  .App-header {
+    background-color: #0b3649;
+    min-height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #000;
+  }
+  .text {
+    font-size: 18px;
+  }
+}
+
+/* Large screens - CURRENTLY*/
+@media (min-width: 80em) {
+  .App-header {
+    background-color: #ffffff;
+    min-height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 35px;
+    color: #fff;
+  }
+  .body{
+    height: 50vh;
+  }
+  .body-head{
+    height: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+  }
+  .body-app-logo{
+    background-size: contain;
+    background-position: center;
+  }
+  .text-body-head{
+    font-size: 80px;
+    color: #000;
+    margin: 0px;
+  }
+  .button-body-head{
+    width: 25%;
+    height: 25%;
+    border-width: 2px;
+    border-color: #000;
+    background-color: #316FF6;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  .body-description{
+    height: 70vh;
+    width: 98%;
+    padding-left: 1%;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .body-purpose-description{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .description-card{
+    width: 70%;
+    height: 100%;
+  }
+  .text-title{
+    font-size: 35px;
+  }
+  .text-title-purpose{
+    padding-left: 1%;
+    font-size: 30px;
+  }
+  .text-description{
+    font-size: 50px;
+    padding: 0px;
+  }
+  .picture-card{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .description-bilinguwise{
+    height: 100%;
+  }
+  .purpose-card{
+    height: 30vh;
+    width: 30vh;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #41444B;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.9);
+  }
+  .text-purpose{
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+  }
+  .emoji-purpose{
+    font-size: 50px;
+    margin: 0px;
+  }
+  .first-benefit-section{
+    width: 30%;
+    height: 100%;
+  }
+  .second-benefit-section{
+    width: 70%;
+    height: 100%;
+  }
+
+  .footer-container{
+    background-color: #316FF6;
+    min-height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    color: #000;
+    }
+  .card-footer{
+    width: 20%;
+    color: #ffffff;
+  }
+  .title-footer{
+    font-size: 25px;
+    margin: 0px;
+  }
+  .social-media-tab{
+    background-color: #2553b8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+  }
+  .social-media-log{
+    height: 100%;
+
+  }
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
